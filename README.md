@@ -1,40 +1,37 @@
-# 📊 Seaborn Complete Revision & Data Visualization
+# 📊 Data Visualization & Complete Revision Repository
 
-Welcome to my **Seaborn Data Visualization Repository**! 🚀  
-This repository contains structured revision notes and practical implementations covering statistical data visualization using **Python Seaborn** across **10 sequential Jupyter Notebooks** and dedicated revision notes[cite: 13].
-
----
-
-## 📚 Topics Covered
-
-### 1. Relational & Statistical Plots
-* **Relational Plots** – Multivariate analysis using `relplot()` and `scatterplot()` to study relationships between numerical variables[cite: 7, 8, 9].
-* **Semantics Mapping** – Enhancing 2D visualizations by mapping additional variables using `hue`, `size`, and `style`[cite: 9].
-
-### 2. Categorical Data Plotting
-* **Master Function** – Using `catplot()` as a figure-level interface for categorical visualizations[cite: 10].
-* **Categorical Scatterplots** – Visualizing data spread and distribution using `stripplot` and `swarmplot`[cite: 10].
-* **Categorical Distribution Plots** – Understanding data quartiles and density using `boxplot` and `violinplot`[cite: 11].
-* **Categorical Estimate Plots** – Representing statistical estimations like means and counts using `pointplot`, `barplot`, and `countplot`[cite: 12].
-
-### 3. Matrix & Grid Plots
-* **Categorical-Categorical Plots** – Analyzing matrix relationships using `heatmaps` and `clustermaps`[cite: 12].
-* **FacetGrids** – Plotting multiple subplots side-by-side across categories and conditions[cite: 12].
+Welcome to my **Data Visualization Repository**! 🚀  
+This repository contains structured revision notes and practical implementations covering statistical and interactive data visualization using **Python** across **Matplotlib**, **Plotly**, and **Seaborn**.
 
 ---
 
 ## 📂 Repository Structure
 ```text
-SEABORN/
-├── notes.ipynb
-├── part1.ipynb
-├── part2.ipynb
-├── part3.ipynb
-├── part4.ipynb
-├── part5.ipynb
-├── part6.ipynb
-├── part7.ipynb
-├── part8.ipynb
-├── part9.ipynb
-├── part10.ipynb
+DATA_VISUALIZATION/
+├── MATPLOTLIB/
+├── PLOTLY/
+├── SEABORN/
 └── README.md
+
+
+📚 Topics Covered
+📈 1. Matplotlib (Foundational 2D Plotting)
+Core Plotting – Creating line plots, bar charts, histograms, scatter plots, and pie charts using matplotlib.pyplot.
+
+Customization & Styling – Configuring figure sizes, subplots, axes labels, titles, legends, markers, and color palettes.
+
+Object-Oriented API – Managing complex multi-plot layouts with Figure and Axes objects.
+
+🌐 2. Plotly (Interactive Visualizations)
+Distplots & Distributions – Visualizing statistical distributions using plotly.figure_factory (create_distplot()) and offline plotting (pyo.plot()).
+
+Data Aggregation & Metrics – Grouping and calculating sports/cricket analytics metrics such as batsman strike rates and dot-ball counts using Pandas.
+
+Heatmaps & Subplots – Building interactive go.Heatmap visualizations and combining multi-panel charts side-by-side using make_subplots().
+
+🎨 3. Seaborn (Statistical Data Visualization)
+Relational & Statistical Plots – Multivariate analysis using relplot() and scatterplot() with hue, size, and style semantics.
+
+Categorical Data Plotting – Visualizing distributions and estimates using catplot(), stripplot, swarmplot, boxplot, violinplot, pointplot, barplot, and countplot.
+
+Matrix & Grid Plots – Analyzing matrix relationships using heatmaps, clustermaps, and multi-panel FacetGrids.
